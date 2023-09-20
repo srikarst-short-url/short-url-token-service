@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     ports:
-      - "3001:3001"
+      - "3002:3001"
     volumes:
       - /home/node/short-url-token-service/node_modules
       - .:/home/node/short-url-token-service:cached
